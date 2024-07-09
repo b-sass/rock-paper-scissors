@@ -4,9 +4,58 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Rock Paper Scissors</title>
-	<script src="app.js"></script>
+	<link type="text/css" rel="stylesheet" href="style.css">
 </head>
 <body>
-	
+	<div class="header-text">
+		<h1>💥 Choose your fighter 💥</h1>
+	</div>
+
+	<div id="button-container">
+		<ul id="game-buttons">
+			<li id="rock">
+				<div class="emoji">👊</div>
+				<p>Rock</p>
+			</li>
+			<li id="paper">
+				<div class="emoji">🖐️</div>
+				<p>Paper</p>
+			</li>
+			<li id="scissors">
+				<div class="emoji">✌️</div>
+				<p>Scissors</p>
+			</li>
+		</ul>
+	</div>
+
+	<!-- <div class="round">
+		<div class="human">
+			<div class="emoji">✌️</div>
+			<p>Scissors</p>
+		</div>
+		<div class="score">
+			<p>0</p>
+			<p>:</p>
+			<p>0</p>
+		</div>
+		<div class="computer">
+			<div class="emoji">✌️</div>
+			<p>Scissors</p>
+		</div>
+	</div> -->
+
+	<div class="round">
+		<div class="human">
+		</div>
+		<div class="score">
+		</div>
+		<div class="computer">
+		</div>
+	</div>
+
+	<div class="round-text">
+		<p class="winner"></p>
+	</div>
 </body>
+<script src="app.js"></script>
 </html>
